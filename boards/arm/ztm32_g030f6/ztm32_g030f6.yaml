@@ -1,0 +1,14 @@
+identifier: ztm32_g030f6
+name: ZTM3_2G030F6 Mini Development Board
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - gpio
+  - i2c
+  - spi
+ram: 8
+flash: 32
