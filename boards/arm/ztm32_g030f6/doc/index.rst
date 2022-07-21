@@ -21,7 +21,7 @@ Hardware
 - 2 I2C controllers
 - On-board LED
 
-.. image:: img/board.jpg
+.. image:: image/board.jpg
      :width: 500px
      :align: center
      :alt: ztm32_g030f6
@@ -89,7 +89,7 @@ Default Zephyr Peripheral Mapping:
 - PWM       : (todo)
 - ADC1 IN0  : (todo)
 
-For mode details please refer to `STM32G03 datasheet`_.
+For mode details please refer to `STM32G030 datasheet`_.
 
 Programming and Debugging
 *************************
