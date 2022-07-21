@@ -63,6 +63,7 @@ The Zephyr ztm32_g030f6 board configuration supports the following hardware feat
 +-----------+------------+-------------------------------------+
 
 Other hardware features are not yet supported in this Zephyr port.
+For more details see `STM32G030F6 on www.st.com`_.
 
 The default configuration can be found in the defconfig file:
 ``boards/arm/ztm32_g030f6/ztm32_g030f6_defconfig``
@@ -99,8 +100,8 @@ References
 
 .. target-notes::
 
-.. _STM32G030 datasheet:
-   http://www.st.com/resource/en/datasheet/stm32g030f6.pdf
-
 .. _STM32G030F6 on www.st.com:
    http://www.st.com/en/microcontrollers/stm32g030f6.html
+
+.. _STM32G030 datasheet:
+   http://www.st.com/resource/en/datasheet/stm32g030f6.pdf
