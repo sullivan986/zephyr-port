@@ -7,7 +7,6 @@
 /dts-v1/;
 #include <st/g0/stm32g030X6.dtsi>
 #include <st/g0/stm32g030f6px-pinctrl.dtsi>
-#include "arduino_nano_r3_connector.dtsi"
 
 / {
 	model = "ZTM32G030F6 Mini Development Board";
