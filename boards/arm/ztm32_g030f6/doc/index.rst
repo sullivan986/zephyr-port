@@ -21,12 +21,10 @@ Hardware
 - 2 I2C controllers
 - On-board LED
 
-.. figure:: img/board.jpg
+.. image:: img/board.jpg
      :width: 500px
      :align: center
      :alt: ztm32_g030f6
-
-     ztm32_g030f6 (Image courtesy of Sullivan)
 
 Supported Features
 ==================
