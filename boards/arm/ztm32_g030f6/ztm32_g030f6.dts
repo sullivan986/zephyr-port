@@ -64,6 +64,16 @@
 	status = "okay";
 };
 
+&timers3 {
+	st,prescaler = <10000>;
+	status = "okay";
+	pwm3: pwm {
+		status = "okay";
+		pinctrl-0 = <&tim3_ch1_pa6>;
+		pinctrl-names = "default";
+	};
+};
+
 &i2c1 {
 	pinctrl-0 = <&i2c1_scl_pa9 &i2c1_sda_pa10>;
 	pinctrl-names = "default";
@@ -82,4 +92,11 @@
 	pinctrl-0 = <&spi1_sck_pb3 &spi1_miso_pb4 &spi1_mosi_pb5>;
 	pinctrl-names = "default";
 	status = "okay";
+};
+
+&adc1 {
+	pinctrl-0 = <&adc1_in0_pa0 &adc1_in1_pa1>;
+	pinctrl-names = "default";
+	status = "okay";
+	vref-mv = <3300>;
 };

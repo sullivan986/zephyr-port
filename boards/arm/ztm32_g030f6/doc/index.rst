@@ -57,9 +57,9 @@ The Zephyr ztm32_g030f6 board configuration supports the following hardware feat
 +-----------+------------+-------------------------------------+
 | WATCHDOG  | on-chip    | independent watchdog                |
 +-----------+------------+-------------------------------------+
-| PWM       | on-chip    | pwm(todo)                           |
+| PWM       | on-chip    | pwm                                 |
 +-----------+------------+-------------------------------------+
-| ADC       | on-chip    | adc(todo)                           |
+| ADC       | on-chip    | adc                                 |
 +-----------+------------+-------------------------------------+
 
 Other hardware features are not yet supported in this Zephyr port.
@@ -86,8 +86,9 @@ Default Zephyr Peripheral Mapping:
 - SPI1 NSS/SCK/MISO/MOSI : PB0/PB3/PB4/PB5
 - SPI2 NSS/SCK/MISO/MOSI : (todo)
 - LED       : PC15
-- PWM       : (todo)
-- ADC1 IN0  : (todo)
+- PWM       : PA6
+- ADC1 IN0  : PA0
+- ADC1 IN1  : PA1
 
 For mode details please refer to `STM32G030 datasheet`_.
 
