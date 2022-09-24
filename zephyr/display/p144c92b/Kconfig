@@ -1,0 +1,5 @@
+config ZTM_P144C92B
+        bool "P144C92B display driver for 8080 Interface"
+        depends on GPIO
+        help
+          Enable driver for P144C92B display.

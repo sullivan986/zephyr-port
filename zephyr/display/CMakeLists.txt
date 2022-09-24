@@ -1,0 +1,1 @@
+add_subdirectory_ifdef(CONFIG_ZTM_P144C92B p144c92b)
