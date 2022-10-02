@@ -1,0 +1,18 @@
+identifier: ztm32_g030k8
+name: ZTM32_G030K8 Mini Development Board
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - gpio
+  - i2c
+  - adc
+  - dma
+  - dmamux
+  - uart
+  - spi
+ram: 8
+flash: 64
