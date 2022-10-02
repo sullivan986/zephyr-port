@@ -21,7 +21,7 @@ Hardware
 - 2 I2C controllers
 - On-board LED
 
-.. image:: image/board.jepg
+.. image:: image/board.jpg
      :width: 500px
      :align: center
      :alt: ztm32_g030k8
