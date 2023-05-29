@@ -1,1 +1,5 @@
-rsource "p144c92b/Kconfig"
+if DISPLAY
+
+rsource "Kconfig.st7735r_8080_gpio"
+
+endif # DISPLAY

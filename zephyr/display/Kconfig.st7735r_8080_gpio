@@ -1,0 +1,7 @@
+config ST7735R_8080_GPIO
+	bool "ST7735R display driver"
+	default y
+	depends on DT_HAS_SITRONIX_ST7735R_ENABLED
+	select GPIO
+	help
+	  Enable driver for ST7735R display driver.

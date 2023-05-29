@@ -1,0 +1,5 @@
+if SENSOR
+
+##rsource "as5600/Kconfig"
+
+endif # SENSOR

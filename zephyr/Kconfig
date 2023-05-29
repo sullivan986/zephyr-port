@@ -1,1 +1,6 @@
+menu "z_drivers"
+
 rsource "display/Kconfig"
+rsource "sensor/Kconfig"
+
+endmenu
