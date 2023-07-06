@@ -1,5 +1,6 @@
-if SENSOR
+# Sensor configuration options
 
-##rsource "as5600/Kconfig"
+# Copyright (c) 2023 Sullivan
+# SPDX-License-Identifier: MIT
 
-endif # SENSOR
+rsource "Kconfig.ax12"

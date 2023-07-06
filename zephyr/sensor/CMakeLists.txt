@@ -1,4 +1,6 @@
-##add_subdirectory_ifdef(CONFIG_AS5600 as5600)
+# SPDX-License-Identifier: MIT
+
+zephyr_include_directories(.)
 
 zephyr_library()
-zephyr_library_property(ALLOW_EMPTY TRUE)
+zephyr_library_sources_ifdef(CONFIG_AX12 motor_ax12.c)

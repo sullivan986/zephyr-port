@@ -1,0 +1,18 @@
+# Copyright (c) 2023, sullivan986.github.io
+# SPDX-License-Identifier: MIT
+
+description: ax12 digital servo
+
+compatible: "bjrobot,ax12"
+
+include: uart-device.yaml
+
+properties:
+  reg:
+    required: true
+  motor-id:
+    type: int
+    required: true
+    description: |
+      Interrupt pin. When the sensor is touched, the GPIO is set to high.
+      It is used to trigger a fingerprint enroll or match operations.

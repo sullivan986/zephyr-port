@@ -1,0 +1,17 @@
+# AX12 motor driver configuration options
+
+# Copyright (c) 2023 Sullivan
+# SPDX-License-Identifier: MIT
+
+config AX12
+	bool "AX12 motor driver"
+	default n
+	depends on SERIAL
+	select SENSOR
+	help
+	  Enable driver for AX12 motor driver.
+
+if AX12
+
+
+endif # AX12
