@@ -1,0 +1,13 @@
+# Copyright (c) 2022 Sullivan Zeng <2257501878@qq.com>
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_WAVESHARE_F407IG
+
+config BOARD
+	default "waveshare_f407ig_defconfig"
+
+config SPI_STM32_INTERRUPT
+	default y
+	depends on SPI
+
+endif

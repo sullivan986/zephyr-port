@@ -1,0 +1,8 @@
+# STM32 ztm32 development board with STM32G030F6P6 MCU configuration
+
+# Copyright (c) 2022 Sullivan Zeng <2257501878@qq.com>
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_WAVESHARE_F407IG
+	bool "WAVESHARE F407IG Development Board"
+	depends on SOC_STM32F407XG

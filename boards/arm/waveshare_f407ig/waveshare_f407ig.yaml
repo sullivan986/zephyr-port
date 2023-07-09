@@ -1,0 +1,15 @@
+identifier: waveshare_f407ig
+name: waveshare stm32f407ig Development Board
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - gpio
+  - i2c
+  - spi
+  - adc
+ram: 192
+flash: 1024
