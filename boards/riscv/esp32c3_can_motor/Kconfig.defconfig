@@ -1,0 +1,17 @@
+# ESP32C3 development board with ESP32C3 MCU configuration
+
+# Copyright (c) 2022 Sullivan Zeng <2257501878@qq.com>
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD
+	default "esp32c3_can_motor"
+	depends on BOARD_ESP32C3_CAN_MOTOR
+
+config HEAP_MEM_POOL_SIZE
+	default 98304 if WIFI
+	default 40960 if BT
+	default 4096
+
+choice BT_HCI_BUS_TYPE
+	default BT_ESP32 if BT
+endchoice

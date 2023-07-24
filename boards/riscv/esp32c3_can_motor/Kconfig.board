@@ -1,0 +1,8 @@
+# ESP32C3 development board with esp32c3 MCU configuration
+
+# Copyright (c) 2022 Sullivan Zeng <2257501878@qq.com>
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_ESP32C3_CAN_MOTOR
+	bool "ESP32C3 can controller Board"
+	depends on SOC_ESP32C3
