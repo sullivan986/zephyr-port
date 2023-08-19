@@ -6,3 +6,7 @@
 config BOARD_ESP32C3_CAN_MOTOR
 	bool "ESP32C3 can controller Board"
 	depends on SOC_ESP32C3
+
+choice SOC_PART_NUMBER
+	default SOC_ESP32C3_MINI_N4
+endchoice
