@@ -35,8 +35,8 @@
 
 	i2c0_default: i2c0_default {
 		group1 {
-			pinmux = <I2C0_SDA_GPIO1>,
-				 <I2C0_SCL_GPIO3>;
+			pinmux = <I2C0_SDA_GPIO10>,
+				 <I2C0_SCL_GPIO6>;
 			bias-pull-up;
 			drive-open-drain;
 			output-high;
@@ -45,8 +45,8 @@
 
 	twai_default: twai_default {
 		group1 {
-			pinmux = <TWAI_TX_GPIO4>,
-				 <TWAI_RX_GPIO5>;
+			pinmux = <TWAI_TX_GPIO5>,
+				 <TWAI_RX_GPIO4>;
 		};
 	};
 };
