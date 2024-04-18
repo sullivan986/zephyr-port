@@ -3,6 +3,6 @@
 # Copyright (c) 2022 Sullivan Zeng <2257501878@qq.com>
 # SPDX-License-Identifier: Apache-2.0
 
+
 config BOARD_ZTM32_G030F6
-	bool "ZTM32 G030F6P6 Development Board"
-	depends on SOC_STM32G030XX
+	select SOC_STM32G030XX

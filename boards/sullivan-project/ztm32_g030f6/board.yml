@@ -1,0 +1,5 @@
+board:
+  name: ztm32_g030f6
+  vendor: sullivan-project
+  socs:
+    - name: stm32g030xx
